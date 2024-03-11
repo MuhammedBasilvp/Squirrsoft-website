@@ -669,7 +669,7 @@ header .head-top .menu-wrap .right .main-nav nav ul li {
   width: 87px;
   height: 87px;
 
-  background: transparent url('/images/Path50192.png') 0% 0% no-repeat padding-box;
+  background: transparent url('../images/Path50192.png') 0% 0% no-repeat padding-box;
   background-size: 87px 87px;
   opacity: 1;
 }
@@ -678,7 +678,7 @@ header .head-top .menu-wrap .right .main-nav nav ul li {
   width: 87px;
   height: 87px;
 
-  background: transparent url('/images/Path50219.png') 0% 0% no-repeat padding-box;
+  background: transparent url('../images/Path50219.png') 0% 0% no-repeat padding-box;
   background-size: 87px 87px;
   opacity: 1;
 }
@@ -687,7 +687,7 @@ header .head-top .menu-wrap .right .main-nav nav ul li {
   width: 87px;
   height: 87px;
 
-  background: transparent url('/images/Path\ 50220@2x.png') 0% 0% no-repeat padding-box;
+  background: transparent url('../images/Path\ 50220@2x.png') 0% 0% no-repeat padding-box;
   background-size: 87px 87px;
   opacity: 1;
 }
@@ -734,7 +734,7 @@ header .head-top .menu-wrap .right .main-nav nav ul li {
   width: 756px;
   height: 724px;
   /* UI Properties */
-  background: url('/images/Path50191.png') no-repeat padding-box;
+  background: url('../images/Path50191.png') no-repeat padding-box;
   /* opacity: 0.2; */
   background-position: center;
   background-size: cover;
@@ -820,7 +820,7 @@ header .head-top .menu-wrap .right .main-nav nav ul li {
 
 .servicez {
   margin-top: 80px;
-  background-image: url(/images/Path50191.png);
+  background-image: url(../images/Path50191.png);
   background-size: 756px 724px;
   background-repeat: no-repeat;
   background-position: center;
@@ -897,46 +897,46 @@ header .head-top .menu-wrap .right .main-nav nav ul li {
 .servmg {
   width: 87px;
   height: 87px;
-  background-image: url(/images/Path50192.png);
+  background-image: url(../images/Path50192.png);
   background-repeat: no-repeat;
 
   background-size: 87px 87px;
 }
 
 #o1 {
-  background-image: url(/images/Path50193.png);
+  background-image: url(../images/Path50193.png);
 }
 
 #o2 {
-  background-image: url(/images/Path50194.png);
+  background-image: url(../images/Path50194.png);
 }
 
 #o3 {
-  background-image: url(/images/Path50195.png);
+  background-image: url(../images/Path50195.png);
 }
 
 #o4 {
-  background-image: url(/images/Path50196.png);
+  background-image: url(../images/Path50196.png);
 }
 
 #o5 {
-  background-image: url(/images/Path50197.png);
+  background-image: url(../images/Path50197.png);
 }
 
 #o6 {
-  background-image: url(/images/Path50198.png);
+  background-image: url(../images/Path50198.png);
 }
 
 #o7 {
-  background-image: url(/images/Path50199.png);
+  background-image: url(../images/Path50199.png);
 }
 
 #o8 {
-  background-image: url(/images/Path50200.png);
+  background-image: url(../images/Path50200.png);
 }
 
 #o9 {
-  background-image: url(/images/Path50219.png);
+  background-image: url(../images/Path50219.png);
 }
 
 .servmg img {
@@ -2379,7 +2379,7 @@ header .head-top .menu-wrap .right .main-nav nav ul li {
     width: 47px;
     height: 47px;
 
-    background: transparent url('/images/Path50192.png') 0% 0% no-repeat padding-box;
+    background: transparent url('../images/Path50192.png') 0% 0% no-repeat padding-box;
     background-size: 47px 47px;
     opacity: 1;
   }
@@ -2387,7 +2387,7 @@ header .head-top .menu-wrap .right .main-nav nav ul li {
   .vznmg1 {
     width: 47px;
     height: 47px;
-    background: transparent url('/images/Path50219.png') 0% 0% no-repeat padding-box;
+    background: transparent url('../images/Path50219.png') 0% 0% no-repeat padding-box;
    
     background-size: 47px 47px;
     opacity: 1;
@@ -2397,7 +2397,7 @@ header .head-top .menu-wrap .right .main-nav nav ul li {
     width: 47px;
     height: 47px;
 
-    background: transparent url('/images/Path50220.png') 0% 0% no-repeat padding-box;
+    background: transparent url('../images/Path50220.png') 0% 0% no-repeat padding-box;
     background-size: 47px 47px;
     opacity: 1;
   }
@@ -2447,7 +2447,7 @@ header .head-top .menu-wrap .right .main-nav nav ul li {
     width: 316px;
     height: 274px;
     /* UI Properties */
-    background: url('/images/Path50191.png') no-repeat padding-box;
+    background: url('../images/Path50191.png') no-repeat padding-box;
     /* opacity: 0.2; */
     background-position: center;
     background-size: cover;
@@ -2593,46 +2593,46 @@ header .head-top .menu-wrap .right .main-nav nav ul li {
   .servmg {
     width: 87px;
     height: 87px;
-    background-image: url(/images/Path50192.png);
+    background-image: url(../images/Path50192.png);
     background-repeat: no-repeat;
 
     background-size: 87px 87px;
   }
 
   #o1 {
-    background-image: url(/images/Path50193.png);
+    background-image: url(../images/Path50193.png);
   }
 
   #o2 {
-    background-image: url(/images/Path50194.png);
+    background-image: url(../images/Path50194.png);
   }
 
   #o3 {
-    background-image: url(/images/Path50195.png);
+    background-image: url(../images/Path50195.png);
   }
 
   #o4 {
-    background-image: url(/images/Path50196.png);
+    background-image: url(../images/Path50196.png);
   }
 
   #o5 {
-    background-image: url(/images/Path50197.png);
+    background-image: url(../images/Path50197.png);
   }
 
   #o6 {
-    background-image: url(/images/Path50198.png);
+    background-image: url(../images/Path50198.png);
   }
 
   #o7 {
-    background-image: url(/images/Path50199.png);
+    background-image: url(../images/Path50199.png);
   }
 
   #o8 {
-    background-image: url(/images/Path50200.png);
+    background-image: url(../images/Path50200.png);
   }
 
   #o9 {
-    background-image: url(/images/Path50219.png);
+    background-image: url(../images/Path50219.png);
   }
 
   .servmg img {
@@ -2710,7 +2710,7 @@ header .head-top .menu-wrap .right .main-nav nav ul li {
     width: 87px;
     height: 87px;
 
-    background: transparent url('/images/Path50192.png') 0% 0% no-repeat padding-box;
+    background: transparent url('../images/Path50192.png') 0% 0% no-repeat padding-box;
     background-size: 87px 87px;
     opacity: 1;
   }
@@ -2719,7 +2719,7 @@ header .head-top .menu-wrap .right .main-nav nav ul li {
     width: 87px;
     height: 87px;
 
-    background: transparent url('/images/Path50219.png') 0% 0% no-repeat padding-box;
+    background: transparent url('../images/Path50219.png') 0% 0% no-repeat padding-box;
     background-size: 87px 87px;
     opacity: 1;
   }
@@ -2728,7 +2728,7 @@ header .head-top .menu-wrap .right .main-nav nav ul li {
     width: 87px;
     height: 87px;
 
-    background: transparent url('/images/Path50220.png') 0% 0% no-repeat padding-box;
+    background: transparent url('../images/Path50220.png') 0% 0% no-repeat padding-box;
     background-size: 87px 87px;
     opacity: 1;
   }
@@ -3057,7 +3057,7 @@ header .head-top .menu-wrap .right .main-nav nav ul li {
     width: 67px;
     height: 67px;
   
-    background: transparent url('/images/Path50192.png') 0% 0% no-repeat padding-box;
+    background: transparent url('../images/Path50192.png') 0% 0% no-repeat padding-box;
     background-size: 67px 67px;
     opacity: 1;
   }
@@ -3066,7 +3066,7 @@ header .head-top .menu-wrap .right .main-nav nav ul li {
     width: 67px;
     height: 67px;
   
-    background: transparent url('/images/Path50219.png') 0% 0% no-repeat padding-box;
+    background: transparent url('../images/Path50219.png') 0% 0% no-repeat padding-box;
     background-size: 67px 67px;
     opacity: 1;
   }
@@ -3075,7 +3075,7 @@ header .head-top .menu-wrap .right .main-nav nav ul li {
     width: 67px;
     height: 67px;
   
-    background: transparent url('/images/Path50220.png') 0% 0% no-repeat padding-box;
+    background: transparent url('../images/Path50220.png') 0% 0% no-repeat padding-box;
     background-size: 67px 67px;
     opacity: 1;
   }
@@ -3124,7 +3124,7 @@ header .head-top .menu-wrap .right .main-nav nav ul li {
   width: 276px;
   height: 244px;
   /* UI Properties */
-  background: url('/images/Path50191.png') no-repeat padding-box;
+  background: url('../images/Path50191.png') no-repeat padding-box;
   /* opacity: 0.2; */
   background-position: center;
   background-size: cover;
@@ -3252,7 +3252,7 @@ header .head-top .menu-wrap .right .main-nav nav ul li {
   .servmg {
     width: 67px;
     height: 67px;
-    background-image: url(/images/Path50192.png);
+    background-image: url(../images/Path50192.png);
     background-repeat: no-repeat;
 
     background-size: 67px 67px;
@@ -3380,7 +3380,7 @@ header .head-top .menu-wrap .right .main-nav nav ul li {
     width: 67px;
     height: 67px;
 
-    background: transparent url('/images/Path50192.png') 0% 0% no-repeat padding-box;
+    background: transparent url('../images/Path50192.png') 0% 0% no-repeat padding-box;
     background-size: 67px 67px;
     opacity: 1;
   }
@@ -3389,7 +3389,7 @@ header .head-top .menu-wrap .right .main-nav nav ul li {
     width: 67px;
     height: 67px;
 
-    background: transparent url('/images/Path50219.png') 0% 0% no-repeat padding-box;
+    background: transparent url('../images/Path50219.png') 0% 0% no-repeat padding-box;
     background-size: 67px 67px;
     opacity: 1;
   }
@@ -3397,7 +3397,7 @@ header .head-top .menu-wrap .right .main-nav nav ul li {
   .vznmg22 {
     width: 60px;
     height: 60px;
-    background: transparent url('/images/Path50220.png') 0% 0% no-repeat padding-box;
+    background: transparent url('../images/Path50220.png') 0% 0% no-repeat padding-box;
     background-size: 67px 67px;
     opacity: 1;
   }
@@ -3447,7 +3447,7 @@ header .head-top .menu-wrap .right .main-nav nav ul li {
     width: 256px;
     height: 224px;
     /* UI Properties */
-    background: url('/images/Path50191.png') no-repeat padding-box;
+    background: url('../images/Path50191.png') no-repeat padding-box;
     /* opacity: 0.2; */
     background-position: center;
     background-size: cover;
