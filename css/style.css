@@ -187,7 +187,10 @@ header .head-top .menu-wrap .right .main-nav nav ul li {
 
   display: flex;
   align-items: center;
-  padding: 0 50px;
+  padding: 0 10px;
+}
+.quick-links ul{
+  padding-left: 0%;
 }
 
 .lady {
@@ -399,10 +402,15 @@ header .head-top .menu-wrap .right .main-nav nav ul li {
   list-style-type: none;
   text-decoration: none;
 }
+.ftSocialUl{
+  padding: 0%;
+
+}
 
 .itemWrap ul {
   display: flex;
   /* justify-content: space-between; */
+  /* justify-content: flex-start; */
   gap: 12px;
 
 }
