@@ -174,8 +174,19 @@ header .head-top .menu-wrap .right .main-nav nav ul li {
 .nav ul {
   display: flex;
   gap: 27px;
+  align-items: center;
 }
 
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-links {
+  padding: 0%;
+  margin: 0%;
+}
 
 #ban-1 {
   display: flex;
@@ -189,7 +200,8 @@ header .head-top .menu-wrap .right .main-nav nav ul li {
   align-items: center;
   padding: 0 10px;
 }
-.quick-links ul{
+
+.quick-links ul {
   padding-left: 0%;
 }
 
@@ -223,13 +235,15 @@ header .head-top .menu-wrap .right .main-nav nav ul li {
   justify-content: space-between;
   margin-top: 50px;
 }
-#brndbg{
+
+#brndbg {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 90px;
 }
-.carousel{
+
+.carousel {
   display: flex;
   /* justify-content: center; */
   width: 280px;
@@ -237,16 +251,18 @@ header .head-top .menu-wrap .right .main-nav nav ul li {
 
 
 }
-.carousel-inner{
+
+.carousel-inner {
   display: flex;
   /* justify-content: center; */
   /* width: 310px; */
   /* align-items: center; */
 }
-.carousel-item img{
-  width:100%;
 
-  height:100%;
+.carousel-item img {
+  width: 100%;
+
+  height: 100%;
   object-fit: contain;
 }
 
@@ -402,7 +418,8 @@ header .head-top .menu-wrap .right .main-nav nav ul li {
   list-style-type: none;
   text-decoration: none;
 }
-.ftSocialUl{
+
+.ftSocialUl {
   padding: 0%;
 
 }
@@ -840,6 +857,361 @@ header .head-top .menu-wrap .right .main-nav nav ul li {
   opacity: 1;
 }
 
+/********************* contact page***************************/
+
+.penlady img {
+  width: 505px;
+  height: 481px;
+}
+
+.c-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 70px;
+}
+
+.v1 {
+  text-align: center;
+  font: normal normal bold 67px/63px Poppins;
+  letter-spacing: 0.67px;
+  color: #FE4865;
+  text-transform: capitalize;
+  opacity: 1;
+}
+
+.v2 p {
+  margin-top: 10px;
+  margin-bottom: 80px;
+  text-align: center;
+  font: normal normal medium 25px/30px Poppins;
+  font-size: 25px;
+  font-family: 'Poppins';
+
+  letter-spacing: 0.25px;
+  color: #707070;
+  text-transform: capitalize;
+  opacity: 1;
+}
+
+#contact-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+  margin-bottom: 157px;
+
+}
+
+.frm {
+  width: 480px;
+}
+
+.name-box1{
+  display: flex;
+  gap: 20px;
+
+}
+.name-box2{
+  display: flex;
+  gap: 20px;
+
+}
+
+#person-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 230px;
+  height: 60px;
+  outline: none;
+  text-align: left;
+}
+
+#countryz {
+  width: 109px;
+  height: 60px;
+}
+
+#phone-number {
+  width: 361px;
+  height: 60px;
+}
+
+#btn-contact {
+  margin-top: 38px;
+  border-radius: 5px;
+  opacity: 1;
+  width: 154px;
+  height: 45px;
+  text-align: center;
+  font: normal normal normal 12px/10px Poppins;
+  letter-spacing: -0.36px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  opacity: 1;
+}
+
+/* blog page */
+#ban-2 {
+  background-color: #f3f4f5;
+  display: flex;
+  margin-top: 36px;
+  justify-content: center;
+}
+
+.blog-left img {
+  width: 895px;
+}
+
+.blog-left-1 {
+  display: flex;
+  flex-direction: column;
+  width: 895px;
+  margin-top: 67px;
+
+
+}
+
+#allblg {
+  display: flex;
+  gap: 10px;
+
+}
+
+.part1-blog {
+  display: flex;
+  gap: 43px;
+
+}
+
+.blog-img02 img {
+  width: 426px;
+  height: 268px;
+  border-radius: 5px;
+  opacity: 1;
+}
+
+.blog-text01 h1 {
+  text-align: left;
+  font: normal normal bold 35px/53px Poppins;
+  letter-spacing: 0.35px;
+  color: #262626;
+  text-transform: uppercase;
+  opacity: 1;
+  margin-top: 31px;
+
+}
+
+.blog-text01 h6 {
+  text-align: left;
+  font: normal normal normal 16px/26px Poppins;
+  letter-spacing: 0px;
+  color: #707070;
+  opacity: 1;
+
+}
+
+.blog-text01 p {
+  text-align: left;
+  font: normal normal normal 16px/26px Poppins;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  margin-bottom: 70px;
+
+}
+
+#cnpg {
+  margin-top: 100px;
+}
+
+/* right section of blog page */
+
+.blog-right {
+  width: 100%;
+  margin-top: 67px;
+}
+
+.ladywithpen-small img {
+  width: 220px;
+  height: 210px;
+  margin-top: 67px;
+}
+
+.rght-blog1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.rght-blog1 h1 {
+  text-align: center;
+  font: normal normal 800 20px/30px Poppins;
+  letter-spacing: 0.2px;
+  color: #262626;
+  text-transform: capitalize;
+  opacity: 1;
+
+}
+
+.rght-blog1 p {
+  text-align: center;
+  font: normal normal 300 12px/18px Poppins;
+  letter-spacing: 0.12px;
+  color: #262626;
+  text-transform: capitalize;
+  opacity: 1;
+}
+
+.sec2-blog-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 120px;
+}
+
+.recentp1 h1 {
+  text-align: center;
+  font: normal normal 800 20px/30px Poppins;
+  letter-spacing: 0.2px;
+  color: #262626;
+  text-transform: capitalize;
+  opacity: 1;
+  margin-bottom: 52px;
+
+}
+
+.rgt-blog-posts {
+  display: flex;
+  gap: 10px;
+
+}
+
+.rght-post-1 img {
+  width: 173px;
+  height: 173px;
+  border-radius: 5px;
+  opacity: 1;
+
+}
+
+.rgt-head-mini h1 {
+  text-align: left;
+  font: normal normal 800 20px/30px Poppins;
+  letter-spacing: 0.2px;
+  color: #262626;
+  text-transform: uppercase;
+  opacity: 1;
+}
+
+.rgt-head-mini h6 {
+  text-align: left;
+  font: normal normal 300 12px/18px Poppins;
+  letter-spacing: 0.12px;
+  color: #262626;
+  text-transform: capitalize;
+  opacity: 1;
+}
+
+.laptop-blog {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.lap-head h1 {
+  text-align: center;
+  font: normal normal 800 20px/30px Poppins;
+  letter-spacing: 0.2px;
+  color: #262626;
+  text-transform: capitalize;
+  opacity: 1;
+  margin-top: 88px;
+  margin-bottom: 52px;
+}
+
+.lap-imag img {
+  width: 448px;
+  height: 340px;
+  border-radius: 5px;
+  opacity: 1;
+}
+
+.Categories {
+  margin-top: 71px;
+  margin-bottom: 52px;
+}
+
+.cat-boxes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cat-box01 {
+  margin-bottom: 16px;
+}
+
+.Categories h1 {
+  text-align: center;
+  font: normal normal 800 20px/30px Poppins;
+  letter-spacing: 0.2px;
+  color: #262626;
+  text-transform: capitalize;
+  opacity: 1;
+
+}
+
+.btn-blog1 {
+  border: 1px solid #E3452F;
+  border-radius: 5px;
+  opacity: 1;
+  background-color: #FFFFFF;
+
+  text-align: center;
+  font: normal normal 300 12px/18px Poppins;
+  letter-spacing: 0.12px;
+  color: #E3452F;
+  text-transform: capitalize;
+  opacity: 1;
+
+}
+
+#sm01 {
+  width: 132px;
+  height: 48px;
+}
+
+#dg01 {
+  width: 155px;
+  height: 48px;
+}
+
+#dzn01 {
+  width: 122px;
+  height: 48px;
+}
+
+#uix01 {
+  width: 75px;
+  height: 48px;
+}
+
+#dzn02 {
+  width: 118px;
+  height: 48px;
+}
+
+#dgtrck01 {
+  width: 216px;
+  height: 48px;
+}
+
 @keyframes hamopen {
   0% {
     -moz-transform: translateX(100%);
@@ -869,20 +1241,22 @@ header .head-top .menu-wrap .right .main-nav nav ul li {
     display: none;
   }
 }
-@media (max-width:691px){
-  #wblogo{
+
+@media (max-width:691px) {
+  #wblogo {
     display: none;
   }
 }
 
-@media (min-width:691px){
-  #mbillogo{
+@media (min-width:691px) {
+  #mbillogo {
     display: none;
   }
 
 }
-@media (max-width:691px){
-  #weblogo{
+
+@media (max-width:691px) {
+  #weblogo {
     display: none;
   }
 }
@@ -3332,19 +3706,124 @@ header .head-top .menu-wrap .right .main-nav nav ul li {
   .bxhd01 p {
     margin-top: 20px;
   }
-  #brndweb{
+
+  #brndweb {
     display: none;
   }
+   /***************contact page****************/
+
+
+.penlady img {
+  width: 320px;
+  height: 311px;
+}
+.v1 {
+  text-align: center;
+  font: normal normal bold 50px/63px Poppins;
+  letter-spacing: 0.67px;
+  color: #FE4865;
+  text-transform: capitalize;
+  opacity: 1;
+}
+
+.v2 p {
+  margin-top: 10px;
+  margin-bottom: 60px;
+  text-align: center;
+  font: normal normal medium 20px/30px Poppins;
+  font-size: 20px;
+  font-family: 'Poppins';
+
+  letter-spacing: 0.25px;
+  color: #707070;
+  text-transform: capitalize;
+  opacity: 1;
+}
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+  margin-bottom: 157px;
 
 }
-@media(min-width:690px){
-  #brndbg{
+.frm{
+  width: 550px;
+}
+.name-box1 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+}
+.name-box2{
+  display: flex;
+  width: 100%;
+
+}
+#person-name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  outline: none;
+  text-align: left;
+}
+#countryz {
+  width: 60px;
+  height: 60px;
+}
+#phone-number {
+  width: 100%;
+  height: 60px;
+}
+#btn-contact {
+  margin-top: 38px;
+  border-radius: 5px;
+  opacity: 1;
+  width: 134px;
+  height: 40px;
+  text-align: center;
+  font: normal normal normal 10px/10px Poppins;
+  letter-spacing: -0.36px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  opacity: 1;
+}
+#nmbr1{
+  width: 100%;
+}
+
+
+
+
+}
+
+@media(min-width:690px) {
+  #brndbg {
     display: none;
   }
 }
+
 @media(min-width:590px)and (max-width:750px) {
   .vtext br {
     display: none;
+  }
+  .v2 br{
+    display: none;
+
+  }
+
+}
+
+@media(min-width:200px)and (max-width:750px) {
+ 
+  .v2 br{
+    display: none;
+
   }
 
 }
@@ -3572,10 +4051,101 @@ header .head-top .menu-wrap .right .main-nav nav ul li {
     opacity: 1;
     font-weight: bolder;
   }
-  #ntb03{
+
+  #ntb03 {
     width: 100px;
     height: 40px;
   }
+
+   /***************contact page****************/
+
+
+.penlady img {
+  width: 320px;
+  height: 311px;
+}
+.v1 {
+  text-align: center;
+  font: normal normal bold 30px/63px Poppins;
+  letter-spacing: 0.67px;
+  color: #FE4865;
+  text-transform: capitalize;
+  opacity: 1;
+}
+
+.v2 p {
+  margin-top: 10px;
+  margin-bottom: 60px;
+  text-align: center;
+  font: normal normal medium 15px/30px Poppins;
+  font-size: 15px;
+  font-family: 'Poppins';
+
+  letter-spacing: 0.25px;
+  color: #707070;
+  text-transform: capitalize;
+  opacity: 1;
+}
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+  margin-bottom: 157px;
+
+}
+.frm{
+  width: 480px;
+}
+.name-box1 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+}
+.name-box2{
+  display: flex;
+  width: 100%;
+
+}
+#person-name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  outline: none;
+  text-align: left;
+}
+#countryz {
+  width: 60px;
+  height: 60px;
+}
+#phone-number {
+  width: 100%;
+  height: 60px;
+}
+#btn-contact {
+  margin-top: 38px;
+  border-radius: 5px;
+  opacity: 1;
+  width: 134px;
+  height: 40px;
+  text-align: center;
+  font: normal normal normal 10px/10px Poppins;
+  letter-spacing: -0.36px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  opacity: 1;
+}
+#nmbr1{
+  width: 100%;
+}
+
+
+
 
 
 
@@ -4018,6 +4588,92 @@ header .head-top .menu-wrap .right .main-nav nav ul li {
     height: 320px;
 
   }
+    /***************contact page****************/
+
+
+.penlady img {
+  width: 320px;
+  height: 311px;
+}
+.v1 {
+  text-align: center;
+  font: normal normal bold 30px/63px Poppins;
+  letter-spacing: 0.67px;
+  color: #FE4865;
+  text-transform: capitalize;
+  opacity: 1;
+}
+
+.v2 p {
+  margin-top: 10px;
+  margin-bottom: 60px;
+  text-align: center;
+  font: normal normal medium 15px/30px Poppins;
+  font-size: 15px;
+  font-family: 'Poppins';
+
+  letter-spacing: 0.25px;
+  color: #707070;
+  text-transform: capitalize;
+  opacity: 1;
+}
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+  margin-bottom: 157px;
+
+}
+.frm{
+  width: 340px;
+}
+.name-box1 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+}
+.name-box2{
+  display: flex;
+  width: 100%;
+
+}
+#person-name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  outline: none;
+  text-align: left;
+}
+#countryz {
+  width: 60px;
+  height: 60px;
+}
+#phone-number {
+  width: 100%;
+  height: 60px;
+}
+#btn-contact {
+  margin-top: 38px;
+  border-radius: 5px;
+  opacity: 1;
+  width: 134px;
+  height: 40px;
+  text-align: center;
+  font: normal normal normal 10px/10px Poppins;
+  letter-spacing: -0.36px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  opacity: 1;
+}
+#nmbr1{
+  width: 100%;
+}
 
 
 
@@ -4361,6 +5017,84 @@ header .head-top .menu-wrap .right .main-nav nav ul li {
     margin-top: 35px;
   }
 
+  /***************contact page****************/
+
+
+.penlady img {
+  width: 295px;
+  height: 311px;
+}
+.v1 {
+  text-align: center;
+  font: normal normal bold 30px/63px Poppins;
+  letter-spacing: 0.67px;
+  color: #FE4865;
+  text-transform: capitalize;
+  opacity: 1;
+}
+
+.v2 p {
+  margin-top: 10px;
+  margin-bottom: 60px;
+  text-align: center;
+  font: normal normal medium 15px/30px Poppins;
+  font-size: 15px;
+  font-family: 'Poppins';
+
+  letter-spacing: 0.25px;
+  color: #707070;
+  text-transform: capitalize;
+  opacity: 1;
+}
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+  margin-bottom: 157px;
+
+}
+.frm{
+  width: 280px;
+}
+.name-box1 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+}
+#person-name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  outline: none;
+  text-align: left;
+}
+#countryz {
+  width: 40px;
+  height: 60px;
+}
+#phone-number {
+  width: 100%;
+  height: 60px;
+}
+#btn-contact {
+  margin-top: 38px;
+  border-radius: 5px;
+  opacity: 1;
+  width: 134px;
+  height: 40px;
+  text-align: center;
+  font: normal normal normal 10px/10px Poppins;
+  letter-spacing: -0.36px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  opacity: 1;
+}
 
 
 
