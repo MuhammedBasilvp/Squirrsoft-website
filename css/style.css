@@ -960,7 +960,7 @@ header .head-top .menu-wrap .right .main-nav nav ul li {
   opacity: 1;
 }
 
-/* blog page */
+/********************blog page *********************/
 #ban-2 {
   background-color: #f3f4f5;
   display: flex;
@@ -2042,6 +2042,72 @@ header .head-top .menu-wrap .right .main-nav nav ul li {
     text-transform: uppercase;
     opacity: 1;
   }
+  /********************blog page *********************/
+  #ban-2 {
+    background-color: #f3f4f5;
+    display: flex;
+    margin-top: 36px;
+    justify-content: center;
+  }
+  
+  .blog-left img {
+    width: 555px;
+  }
+  
+  .blog-left-1 {
+    display: flex;
+    flex-direction: column;
+    width: 555px;
+    margin-top: 67px;
+  
+  
+  }
+  .blog-text01 h1 {
+    text-align: left;
+    font: normal normal bold 27px/43px Poppins;
+    letter-spacing: 0.35px;
+    color: #262626;
+    text-transform: uppercase;
+    opacity: 1;
+    margin-top: 31px;
+  
+  }
+  
+  .blog-text01 h6 {
+    text-align: left;
+    font: normal normal normal 13px/26px Poppins;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+  
+  }
+  
+  .blog-text01 p {
+    text-align: left;
+    font: normal normal normal 13px/26px Poppins;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    margin-bottom: 70px;
+  
+  }
+  
+.blog-img02 img {
+  width: 226px;
+  height: 228px;
+  border-radius: 5px;
+  opacity: 1;
+}
+.blog-text01 br{
+  display: none;
+}
+
+.lap-imag img {
+  width: 100%;
+  height: 290px;
+  border-radius: 5px;
+  opacity: 1;
+}
 
 }
 
@@ -2468,6 +2534,65 @@ header .head-top .menu-wrap .right .main-nav nav ul li {
     opacity: 1;
   }
 
+/********************* blog page***************************/
+#ban-2 {
+  background-color: #f3f4f5;
+  display: flex;
+  margin-top: 10px;}
+#allblg {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  
+
+}
+.blog-left img {
+  width: 100%;
+}
+.blog-left-1 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 37px;
+
+
+}
+.blog-text01  br{
+  display: none;
+}
+.blog-text01 h1 {
+  text-align: left;
+  font: normal normal bold 27px/53px Poppins;
+  letter-spacing: 0.35px;
+  color: #262626;
+  text-transform: uppercase;
+  opacity: 1;
+  margin-top: 31px;
+
+}
+
+.blog-text01 h6 {
+  text-align: left;
+  font: normal normal normal 13px/26px Poppins;
+  letter-spacing: 0px;
+  color: #707070;
+  opacity: 1;
+
+}
+
+.blog-text01 p {
+  text-align: left;
+  font: normal normal normal 13px/26px Poppins;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  margin-bottom: 70px;
+
+}
+.rgt-blog-posts{
+  margin-top: 20px;
+}
+
 
 
 
@@ -2783,6 +2908,66 @@ header .head-top .menu-wrap .right .main-nav nav ul li {
     text-transform: capitalize;
     opacity: 1;
   }
+  /********************* blog page***************************/
+#ban-2 {
+  background-color: #f3f4f5;
+  display: flex;
+  margin-top: 10px;}
+#allblg {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  
+
+}
+.blog-left img {
+  width: 100%;
+}
+.blog-left-1 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 37px;
+
+
+}
+.blog-text01  br{
+  display: none;
+}
+.blog-text01 h1 {
+  text-align: left;
+  font: normal normal bold 27px/53px Poppins;
+  letter-spacing: 0.35px;
+  color: #262626;
+  text-transform: uppercase;
+  opacity: 1;
+  margin-top: 31px;
+
+}
+
+.blog-text01 h6 {
+  text-align: left;
+  font: normal normal normal 13px/26px Poppins;
+  letter-spacing: 0px;
+  color: #707070;
+  opacity: 1;
+
+}
+
+.blog-text01 p {
+  text-align: left;
+  font: normal normal normal 13px/26px Poppins;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  margin-bottom: 70px;
+
+}
+.rgt-blog-posts{
+  margin-top: 20px;
+}
+
+
 
 }
 
@@ -3107,7 +3292,64 @@ header .head-top .menu-wrap .right .main-nav nav ul li {
   text-transform: capitalize;
   opacity: 1;
 }
+/********************* blog page***************************/
+#ban-2 {
+  background-color: #f3f4f5;
+  display: flex;
+  margin-top: 10px;}
+#allblg {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  
 
+}
+.blog-left img {
+  width: 100%;
+}
+.blog-left-1 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 37px;
+
+
+}
+.blog-text01  br{
+  display: none;
+}
+.blog-text01 h1 {
+  text-align: left;
+  font: normal normal bold 27px/53px Poppins;
+  letter-spacing: 0.35px;
+  color: #262626;
+  text-transform: uppercase;
+  opacity: 1;
+  margin-top: 31px;
+
+}
+
+.blog-text01 h6 {
+  text-align: left;
+  font: normal normal normal 13px/26px Poppins;
+  letter-spacing: 0px;
+  color: #707070;
+  opacity: 1;
+
+}
+
+.blog-text01 p {
+  text-align: left;
+  font: normal normal normal 13px/26px Poppins;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  margin-bottom: 70px;
+
+}
+.rgt-blog-posts{
+  margin-top: 20px;
+}
 
 
 }
@@ -3537,7 +3779,221 @@ header .head-top .menu-wrap .right .main-nav nav ul li {
   text-transform: capitalize;
   opacity: 1;
 }
+    /***************contact page****************/
 
+
+.penlady img {
+  width: 320px;
+  height: 311px;
+}
+.v1 {
+  text-align: center;
+  font: normal normal bold 30px/63px Poppins;
+  letter-spacing: 0.67px;
+  color: #FE4865;
+  text-transform: capitalize;
+  opacity: 1;
+}
+
+.v2 p {
+  margin-top: 10px;
+  margin-bottom: 60px;
+  text-align: center;
+  font: normal normal medium 15px/30px Poppins;
+  font-size: 15px;
+  font-family: 'Poppins';
+
+  letter-spacing: 0.25px;
+  color: #707070;
+  text-transform: capitalize;
+  opacity: 1;
+}
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+  margin-bottom: 157px;
+
+}
+.frm{
+  width: 340px;
+}
+.name-box1 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+}
+.name-box2{
+  display: flex;
+  width: 100%;
+
+}
+#person-name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  outline: none;
+  text-align: left;
+}
+#countryz {
+  width: 60px;
+  height: 60px;
+}
+#phone-number {
+  width: 100%;
+  height: 60px;
+}
+#btn-contact {
+  margin-top: 38px;
+  border-radius: 5px;
+  opacity: 1;
+  width: 134px;
+  height: 40px;
+  text-align: center;
+  font: normal normal normal 10px/10px Poppins;
+  letter-spacing: -0.36px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  opacity: 1;
+}
+#nmbr1{
+  width: 100%;
+}
+
+/*************** blog page ********************/
+#ban-2 {
+  background-color: #f3f4f5;
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+}
+#ntb03{
+  margin-bottom: 20px;
+}
+
+#allblg {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+}
+.blog-left-1 img {
+  width: 100%;
+}
+.blog-left-1 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 40px;
+
+
+}
+.part1-blog {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+}
+.lap-imag img {
+  width: 100%;
+  height: 280px;
+  border-radius: 5px;
+  opacity: 1;
+}
+.blog-img02 img {
+  width: 100%;
+  height: 228px;
+  border-radius: 5px;
+  opacity: 1;
+}
+.blog-text01 br{
+  display: none;
+}
+.blog-text01 h1 {
+  text-align: left;
+  font: normal normal bold 23px/53px Poppins;
+  letter-spacing: 0.35px;
+  color: #262626;
+  text-transform: uppercase;
+  opacity: 1;
+  margin-top: 31px;
+
+}
+.blog-text01 h6 {
+  text-align: left;
+  font: normal normal normal 14px/26px Poppins;
+  letter-spacing: 0px;
+  color: #707070;
+  opacity: 1;
+
+}
+
+.blog-text01 p {
+  text-align: left;
+  font: normal normal normal 14px/26px Poppins;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  margin-bottom: 20px;
+
+}
+/* right section of blog page */
+
+.blog-right {
+  width: 100%;
+  margin-top: 37px;
+}
+.ladywithpen-small img {
+  width: 220px;
+  height: 210px;
+  margin-top: 37px;
+}
+.rgt-blog-posts {
+  display: flex;
+  gap: 10px;
+
+}
+
+.rght-post-1 img {
+  width: 167px;
+  height: 167px;
+  border-radius: 5px;
+  opacity: 1;
+  margin-top: 10px;
+
+}
+.rgt-head-mini h1 {
+  text-align: left;
+  font: normal normal 800 15px/30px Poppins;
+  letter-spacing: 0.2px;
+  color: #262626;
+  text-transform: uppercase;
+  opacity: 1;
+}
+
+.rgt-head-mini h6 {
+  text-align: left;
+  font: normal normal 300 10px/18px Poppins;
+  letter-spacing: 0.12px;
+  color: #262626;
+  text-transform: capitalize;
+  opacity: 1;
+}
+
+/********************* blog page***************************/
+
+#allblg {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+}
 
 }
 /* @media (min-width: 576px){
@@ -4106,7 +4562,212 @@ header .head-top .menu-wrap .right .main-nav nav ul li {
 #nmbr1{
   width: 100%;
 }
+    /***************contact page****************/
 
+
+    .penlady img {
+      width: 320px;
+      height: 311px;
+    }
+    .v1 {
+      text-align: center;
+      font: normal normal bold 30px/63px Poppins;
+      letter-spacing: 0.67px;
+      color: #FE4865;
+      text-transform: capitalize;
+      opacity: 1;
+    }
+    
+    .v2 p {
+      margin-top: 10px;
+      margin-bottom: 60px;
+      text-align: center;
+      font: normal normal medium 15px/30px Poppins;
+      font-size: 15px;
+      font-family: 'Poppins';
+    
+      letter-spacing: 0.25px;
+      color: #707070;
+      text-transform: capitalize;
+      opacity: 1;
+    }
+    #contact-form {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 35px;
+      margin-bottom: 157px;
+    
+    }
+    .frm{
+      width: 340px;
+    }
+    .name-box1 {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    
+    }
+    .name-box2{
+      display: flex;
+      width: 100%;
+    
+    }
+    #person-name {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 60px;
+      outline: none;
+      text-align: left;
+    }
+    #countryz {
+      width: 60px;
+      height: 60px;
+    }
+    #phone-number {
+      width: 100%;
+      height: 60px;
+    }
+    #btn-contact {
+      margin-top: 38px;
+      border-radius: 5px;
+      opacity: 1;
+      width: 134px;
+      height: 40px;
+      text-align: center;
+      font: normal normal normal 10px/10px Poppins;
+      letter-spacing: -0.36px;
+      color: #FFFFFF;
+      text-transform: uppercase;
+      opacity: 1;
+    }
+    #nmbr1{
+      width: 100%;
+    }
+    
+    /*************** blog page ********************/
+    #ban-2 {
+      background-color: #f3f4f5;
+      display: flex;
+      margin-top: 10px;
+      justify-content: center;
+    }
+    #ntb03{
+      margin-bottom: 20px;
+    }
+    
+    #allblg {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    
+    }
+    .blog-left-1 img {
+      width: 100%;
+    }
+    .blog-left-1 {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      margin-top: 40px;
+    
+    
+    }
+    .part1-blog {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    
+    }
+    .lap-imag img {
+      width: 100%;
+      height: 280px;
+      border-radius: 5px;
+      opacity: 1;
+    }
+    .blog-img02 img {
+      width: 100%;
+      height: 228px;
+      border-radius: 5px;
+      opacity: 1;
+    }
+    .blog-text01 br{
+      display: none;
+    }
+    .blog-text01 h1 {
+      text-align: left;
+      font: normal normal bold 23px/53px Poppins;
+      letter-spacing: 0.35px;
+      color: #262626;
+      text-transform: uppercase;
+      opacity: 1;
+      margin-top: 31px;
+    
+    }
+    .blog-text01 h6 {
+      text-align: left;
+      font: normal normal normal 14px/26px Poppins;
+      letter-spacing: 0px;
+      color: #707070;
+      opacity: 1;
+    
+    }
+    
+    .blog-text01 p {
+      text-align: left;
+      font: normal normal normal 14px/26px Poppins;
+      letter-spacing: 0px;
+      color: #000000;
+      opacity: 1;
+      margin-bottom: 20px;
+    
+    }
+    /* right section of blog page */
+    
+    .blog-right {
+      width: 100%;
+      margin-top: 37px;
+    }
+    .ladywithpen-small img {
+      width: 220px;
+      height: 210px;
+      margin-top: 37px;
+    }
+    .rgt-blog-posts {
+      display: flex;
+      gap: 10px;
+    
+    }
+    
+    .rght-post-1 img {
+      width: 167px;
+      height: 167px;
+      border-radius: 5px;
+      opacity: 1;
+      margin-top: 10px;
+    
+    }
+    .rgt-head-mini h1 {
+      text-align: left;
+      font: normal normal 800 15px/30px Poppins;
+      letter-spacing: 0.2px;
+      color: #262626;
+      text-transform: uppercase;
+      opacity: 1;
+    }
+    
+    .rgt-head-mini h6 {
+      text-align: left;
+      font: normal normal 300 10px/18px Poppins;
+      letter-spacing: 0.12px;
+      color: #262626;
+      text-transform: capitalize;
+      opacity: 1;
+    }
 
 
 
@@ -4454,6 +5115,212 @@ header .head-top .menu-wrap .right .main-nav nav ul li {
   width: 100%;
 }
 
+    /***************contact page****************/
+
+
+    .penlady img {
+      width: 320px;
+      height: 311px;
+    }
+    .v1 {
+      text-align: center;
+      font: normal normal bold 30px/63px Poppins;
+      letter-spacing: 0.67px;
+      color: #FE4865;
+      text-transform: capitalize;
+      opacity: 1;
+    }
+    
+    .v2 p {
+      margin-top: 10px;
+      margin-bottom: 60px;
+      text-align: center;
+      font: normal normal medium 15px/30px Poppins;
+      font-size: 15px;
+      font-family: 'Poppins';
+    
+      letter-spacing: 0.25px;
+      color: #707070;
+      text-transform: capitalize;
+      opacity: 1;
+    }
+    #contact-form {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 35px;
+      margin-bottom: 157px;
+    
+    }
+    .frm{
+      width: 340px;
+    }
+    .name-box1 {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    
+    }
+    .name-box2{
+      display: flex;
+      width: 100%;
+    
+    }
+    #person-name {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 60px;
+      outline: none;
+      text-align: left;
+    }
+    #countryz {
+      width: 60px;
+      height: 60px;
+    }
+    #phone-number {
+      width: 100%;
+      height: 60px;
+    }
+    #btn-contact {
+      margin-top: 38px;
+      border-radius: 5px;
+      opacity: 1;
+      width: 134px;
+      height: 40px;
+      text-align: center;
+      font: normal normal normal 10px/10px Poppins;
+      letter-spacing: -0.36px;
+      color: #FFFFFF;
+      text-transform: uppercase;
+      opacity: 1;
+    }
+    #nmbr1{
+      width: 100%;
+    }
+    
+    /*************** blog page ********************/
+    #ban-2 {
+      background-color: #f3f4f5;
+      display: flex;
+      margin-top: 10px;
+      justify-content: center;
+    }
+    #ntb03{
+      margin-bottom: 20px;
+    }
+    
+    #allblg {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    
+    }
+    .blog-left-1 img {
+      width: 100%;
+    }
+    .blog-left-1 {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      margin-top: 40px;
+    
+    
+    }
+    .part1-blog {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    
+    }
+    .lap-imag img {
+      width: 100%;
+      height: 280px;
+      border-radius: 5px;
+      opacity: 1;
+    }
+    .blog-img02 img {
+      width: 100%;
+      height: 228px;
+      border-radius: 5px;
+      opacity: 1;
+    }
+    .blog-text01 br{
+      display: none;
+    }
+    .blog-text01 h1 {
+      text-align: left;
+      font: normal normal bold 23px/53px Poppins;
+      letter-spacing: 0.35px;
+      color: #262626;
+      text-transform: uppercase;
+      opacity: 1;
+      margin-top: 31px;
+    
+    }
+    .blog-text01 h6 {
+      text-align: left;
+      font: normal normal normal 14px/26px Poppins;
+      letter-spacing: 0px;
+      color: #707070;
+      opacity: 1;
+    
+    }
+    
+    .blog-text01 p {
+      text-align: left;
+      font: normal normal normal 14px/26px Poppins;
+      letter-spacing: 0px;
+      color: #000000;
+      opacity: 1;
+      margin-bottom: 20px;
+    
+    }
+    /* right section of blog page */
+    
+    .blog-right {
+      width: 100%;
+      margin-top: 37px;
+    }
+    .ladywithpen-small img {
+      width: 220px;
+      height: 210px;
+      margin-top: 37px;
+    }
+    .rgt-blog-posts {
+      display: flex;
+      gap: 10px;
+    
+    }
+    
+    .rght-post-1 img {
+      width: 167px;
+      height: 167px;
+      border-radius: 5px;
+      opacity: 1;
+      margin-top: 10px;
+    
+    }
+    .rgt-head-mini h1 {
+      text-align: left;
+      font: normal normal 800 15px/30px Poppins;
+      letter-spacing: 0.2px;
+      color: #262626;
+      text-transform: uppercase;
+      opacity: 1;
+    }
+    
+    .rgt-head-mini h6 {
+      text-align: left;
+      font: normal normal 300 10px/18px Poppins;
+      letter-spacing: 0.12px;
+      color: #262626;
+      text-transform: capitalize;
+      opacity: 1;
+    }
 
 
 
@@ -4985,12 +5852,125 @@ header .head-top .menu-wrap .right .main-nav nav ul li {
   width: 100%;
 }
 
+/*************** blog page ********************/
+#ban-2 {
+  background-color: #f3f4f5;
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+}
+#ntb03{
+  margin-bottom: 20px;
+}
+
+#allblg {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+}
+.blog-left-1 img {
+  width: 100%;
+}
+.blog-left-1 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 40px;
 
 
+}
+.part1-blog {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 
+}
+.lap-imag img {
+  width: 100%;
+  height: 280px;
+  border-radius: 5px;
+  opacity: 1;
+}
+.blog-img02 img {
+  width: 100%;
+  height: 228px;
+  border-radius: 5px;
+  opacity: 1;
+}
+.blog-text01 br{
+  display: none;
+}
+.blog-text01 h1 {
+  text-align: left;
+  font: normal normal bold 23px/53px Poppins;
+  letter-spacing: 0.35px;
+  color: #262626;
+  text-transform: uppercase;
+  opacity: 1;
+  margin-top: 31px;
 
+}
+.blog-text01 h6 {
+  text-align: left;
+  font: normal normal normal 14px/26px Poppins;
+  letter-spacing: 0px;
+  color: #707070;
+  opacity: 1;
 
+}
 
+.blog-text01 p {
+  text-align: left;
+  font: normal normal normal 14px/26px Poppins;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  margin-bottom: 20px;
+
+}
+/* right section of blog page */
+
+.blog-right {
+  width: 100%;
+  margin-top: 37px;
+}
+.ladywithpen-small img {
+  width: 220px;
+  height: 210px;
+  margin-top: 37px;
+}
+.rgt-blog-posts {
+  display: flex;
+  gap: 10px;
+
+}
+
+.rght-post-1 img {
+  width: 167px;
+  height: 167px;
+  border-radius: 5px;
+  opacity: 1;
+  margin-top: 10px;
+
+}
+.rgt-head-mini h1 {
+  text-align: left;
+  font: normal normal 800 15px/30px Poppins;
+  letter-spacing: 0.2px;
+  color: #262626;
+  text-transform: uppercase;
+  opacity: 1;
+}
+
+.rgt-head-mini h6 {
+  text-align: left;
+  font: normal normal 300 10px/18px Poppins;
+  letter-spacing: 0.12px;
+  color: #262626;
+  text-transform: capitalize;
+  opacity: 1;
+}
 
 }
 
@@ -5417,6 +6397,128 @@ header .head-top .menu-wrap .right .main-nav nav ul li {
 .form-floating{
   width: 100%;
 }
+/*************** blog page ********************/
+#ban-2 {
+  background-color: #f3f4f5;
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+}
+#ntb03{
+  margin-bottom: 20px;
+}
+
+#allblg {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+}
+.blog-left img {
+  width: 100%;
+}
+.blog-left-1 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 40px;
+
+
+}
+.part1-blog {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+}
+.lap-imag img {
+  width: 100%;
+  height: 280px;
+  border-radius: 5px;
+  opacity: 1;
+}
+.blog-img02 img {
+  width: 100%;
+  height: 228px;
+  border-radius: 5px;
+  opacity: 1;
+}
+.blog-text01 br{
+  display: none;
+}
+.blog-text01 h1 {
+  text-align: left;
+  font: normal normal bold 23px/53px Poppins;
+  letter-spacing: 0.35px;
+  color: #262626;
+  text-transform: uppercase;
+  opacity: 1;
+  margin-top: 31px;
+
+}
+.blog-text01 h6 {
+  text-align: left;
+  font: normal normal normal 14px/26px Poppins;
+  letter-spacing: 0px;
+  color: #707070;
+  opacity: 1;
+
+}
+
+.blog-text01 p {
+  text-align: left;
+  font: normal normal normal 14px/26px Poppins;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  margin-bottom: 20px;
+
+}
+/* right section of blog page */
+
+.blog-right {
+  width: 100%;
+  margin-top: 37px;
+}
+.ladywithpen-small img {
+  width: 220px;
+  height: 210px;
+  margin-top: 37px;
+}
+.rgt-blog-posts {
+  display: flex;
+  gap: 10px;
+
+}
+
+.rght-post-1 img {
+  width: 167px;
+  height: 167px;
+  border-radius: 5px;
+  opacity: 1;
+  margin-top: 10px;
+
+}
+.rgt-head-mini h1 {
+  text-align: left;
+  font: normal normal 800 15px/30px Poppins;
+  letter-spacing: 0.2px;
+  color: #262626;
+  text-transform: uppercase;
+  opacity: 1;
+}
+
+.rgt-head-mini h6 {
+  text-align: left;
+  font: normal normal 300 10px/18px Poppins;
+  letter-spacing: 0.12px;
+  color: #262626;
+  text-transform: capitalize;
+  opacity: 1;
+}
+
+
+
 
 
 }
