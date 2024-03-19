@@ -862,6 +862,14 @@ header .head-top .menu-wrap .right .main-nav nav ul li {
 .penlady img {
   width: 505px;
   height: 481px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.penlady{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .c-text {
@@ -1618,7 +1626,86 @@ header .head-top .menu-wrap .right .main-nav nav ul li {
     width: 461px;
     height: 637px;
   }
+ /********************* contact page***************************/
+ .penlady img {
+  width: 405px;
+  height: 381px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.v1 {
+  text-align: center;
+  font: normal normal bold 50px/63px Poppins;
+  letter-spacing: 0.67px;
+  color: #FE4865;
+  text-transform: capitalize;
+  opacity: 1;
+}
 
+.v2 p {
+  margin-top: 10px;
+  margin-bottom: 80px;
+  text-align: center;
+  font: normal normal medium 20px/30px Poppins;
+  font-size: 20px;
+  font-family: 'Poppins';
+
+  letter-spacing: 0.25px;
+  color: #707070;
+  text-transform: capitalize;
+  opacity: 1;
+}
+.frm {
+  width: 400px;
+}
+#person-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 195px;
+  height: 60px;
+  outline: none;
+  text-align: left;
+}
+.name-box1{
+  display: flex;
+  gap: 10px;
+
+}
+.name-box2{
+  display: flex;
+  gap: 10px;
+
+}
+
+
+#countryz {
+  width: 90px;
+  height: 60px;
+}
+
+#phone-number {
+  width: 100%;
+  height: 60px;
+}
+#nmbr1{
+  width: 100%;
+}
+
+#btn-contact {
+  margin-top: 38px;
+  border-radius: 5px;
+  opacity: 1;
+  width: 134px;
+  height: 45px;
+  text-align: center;
+  font: normal normal normal 10px/10px Poppins;
+  letter-spacing: -0.36px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  opacity: 1;
+}
 
 
 }
@@ -1875,7 +1962,86 @@ header .head-top .menu-wrap .right .main-nav nav ul li {
     margin-top: 8px;
     margin-left: 5px;
   }
-
+  /********************* contact page***************************/
+  .penlady img {
+    width: 405px;
+    height: 381px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .v1 {
+    text-align: center;
+    font: normal normal bold 50px/63px Poppins;
+    letter-spacing: 0.67px;
+    color: #FE4865;
+    text-transform: capitalize;
+    opacity: 1;
+  }
+  
+  .v2 p {
+    margin-top: 10px;
+    margin-bottom: 80px;
+    text-align: center;
+    font: normal normal medium 20px/30px Poppins;
+    font-size: 20px;
+    font-family: 'Poppins';
+  
+    letter-spacing: 0.25px;
+    color: #707070;
+    text-transform: capitalize;
+    opacity: 1;
+  }
+  .frm {
+    width: 400px;
+  }
+  #person-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 195px;
+    height: 60px;
+    outline: none;
+    text-align: left;
+  }
+  .name-box1{
+    display: flex;
+    gap: 10px;
+  
+  }
+  .name-box2{
+    display: flex;
+    gap: 10px;
+  
+  }
+  
+  
+  #countryz {
+    width: 90px;
+    height: 60px;
+  }
+  
+  #phone-number {
+    width: 100%;
+    height: 60px;
+  }
+  #nmbr1{
+    width: 100%;
+  }
+  
+  #btn-contact {
+    margin-top: 38px;
+    border-radius: 5px;
+    opacity: 1;
+    width: 134px;
+    height: 45px;
+    text-align: center;
+    font: normal normal normal 10px/10px Poppins;
+    letter-spacing: -0.36px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+  }
 
 }
 
@@ -2266,6 +2432,41 @@ header .head-top .menu-wrap .right .main-nav nav ul li {
     width: 361px;
     height: 537px;
   }
+/************* contact us page ******/
+  #contact-form{
+    display: flex;
+    flex-direction: column;
+  }
+  .penlady img {
+    width: 440px;
+    height: 441px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .v1 {
+    text-align: center;
+    font: normal normal bold 47px/63px Poppins;
+    letter-spacing: 0.67px;
+    color: #FE4865;
+    text-transform: capitalize;
+    opacity: 1;
+  }
+  
+  .v2 p {
+    margin-top: 10px;
+    margin-bottom: 80px;
+    text-align: center;
+    font: normal normal medium 25px/30px Poppins;
+    font-size: 18px;
+    font-family: 'Poppins';
+  
+    letter-spacing: 0.25px;
+    color: #707070;
+    text-transform: capitalize;
+    opacity: 1;
+  }
 
 
 
@@ -2546,6 +2747,41 @@ header .head-top .menu-wrap .right .main-nav nav ul li {
     text-transform: capitalize;
     opacity: 1;
     font-weight: bolder;
+  }
+
+  #contact-form{
+    display: flex;
+    flex-direction: column;
+  }
+  .penlady img {
+    width: 440px;
+    height: 441px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .v1 {
+    text-align: center;
+    font: normal normal bold 47px/63px Poppins;
+    letter-spacing: 0.67px;
+    color: #FE4865;
+    text-transform: capitalize;
+    opacity: 1;
+  }
+  
+  .v2 p {
+    margin-top: 10px;
+    margin-bottom: 80px;
+    text-align: center;
+    font: normal normal medium 25px/30px Poppins;
+    font-size: 18px;
+    font-family: 'Poppins';
+  
+    letter-spacing: 0.25px;
+    color: #707070;
+    text-transform: capitalize;
+    opacity: 1;
   }
 
 }
@@ -2836,14 +3072,49 @@ header .head-top .menu-wrap .right .main-nav nav ul li {
     margin-top: 8px;
     margin-left: 5px;
   }
+  /********************* contact page***************************/
+#contact-form{
+  display: flex;
+  flex-direction: column;
+}
+.penlady img {
+  width: 440px;
+  height: 441px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  @media (max-width:768px) {
-    .main-nav {
-      display: none;
-    }
+.v1 {
+  text-align: center;
+  font: normal normal bold 47px/63px Poppins;
+  letter-spacing: 0.67px;
+  color: #FE4865;
+  text-transform: capitalize;
+  opacity: 1;
+}
+
+.v2 p {
+  margin-top: 10px;
+  margin-bottom: 80px;
+  text-align: center;
+  font: normal normal medium 25px/30px Poppins;
+  font-size: 18px;
+  font-family: 'Poppins';
+
+  letter-spacing: 0.25px;
+  color: #707070;
+  text-transform: capitalize;
+  opacity: 1;
+}
+
+
+
+}
+@media (max-width:768px) {
+  .main-nav {
+    display: none;
   }
-
-
 }
 
 @media (max-width:751px) {
@@ -3231,9 +3502,48 @@ header .head-top .menu-wrap .right .main-nav nav ul li {
     margin-top: 20px;
   }
 
+  /************** contact us page ***************/
+
+.penlady img {
+  width: 450px;
+  height: 431px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#contact-form{
+  display: flex;
+  flex-direction: column;
+}
+.v1 {
+  text-align: center;
+  font: normal normal bold 37px/63px Poppins;
+  letter-spacing: 0.67px;
+  color: #FE4865;
+  text-transform: capitalize;
+  opacity: 1;
+}
+
+.v2 p {
+  margin-top: 10px;
+  margin-bottom: 80px;
+  text-align: center;
+  font: normal normal medium 17px/30px Poppins;
+  font-size: 17px;
+  font-family: 'Poppins';
+
+  letter-spacing: 0.25px;
+  color: #707070;
+  text-transform: capitalize;
+  opacity: 1;
+}
 
 
 }
+/* @media (min-width: 576px){
+.container, .container-sm {
+    max-width: 740px;}
+} */
 
 @media (max-width:690px) {
   .container {
