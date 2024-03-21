@@ -438,6 +438,13 @@ header .head-top .menu-wrap .right .main-nav nav ul li {
   opacity: 1;
   color: #FFFFFF;
 }
+#sld-box1{
+  margin-bottom: 200px;
+  margin-top: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 /************* about us page css ****************/
 
@@ -1221,6 +1228,74 @@ header .head-top .menu-wrap .right .main-nav nav ul li {
   width: 216px;
   height: 48px;
 }
+
+/* index page boxslide */
+
+.d-block{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#sld-box1{
+  height: 300px;
+}
+#mve{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+/* slider */
+.logoz {
+  overflow: hidden;
+  padding: 40px 0;
+  background: #FFFFFF;
+  white-space: nowrap;
+  display: flex;
+  gap: 10px;
+  margin-top: 70px;
+}
+.logoz:hover .logoz-slide{
+  animation-play-state: paused;
+}
+.logoz-slide {
+  display: flex;
+  /* justify-content: space-between; */
+  
+  animation: 35s slide infinite linear;
+}
+
+.oz-slide{
+  height: 50px;
+  width: 190px;
+  margin-left: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.oz-slide img{
+
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+@keyframes slide{
+  from{
+    transform: translateX(0);
+  }
+  to{
+    transform: translateX(-100%);
+  }
+}
+
+
+
 
 @keyframes hamopen {
   0% {
@@ -5166,9 +5241,9 @@ height: 45px;
     margin-top: 20px;
   }
 
-  #brndweb {
+  /* #brndweb {
     display: none;
-  }
+  } */
    /***************contact page****************/
 
 
@@ -5466,7 +5541,7 @@ height: 45px;
 
 }
 
-@media(min-width:690px) {
+@media(min-width:591px) {
   #brndbg {
     display: none;
   }
@@ -5493,6 +5568,9 @@ height: 45px;
 }
 
 @media(max-width:591px) {
+  #brndweb {
+    display: none;
+  }
 
   .svz1 {
     display: flex;
@@ -5526,7 +5604,7 @@ height: 45px;
     align-items: center;
     margin-top: 17px;
     gap: 14px;
-    margin-bottom: 12px;
+    margin-bottom: 0px;
   }
 
   .sevt {
