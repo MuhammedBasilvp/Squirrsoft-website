@@ -7,8 +7,11 @@
   padding: 0;
   border: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
-
+html{
+  scroll-behavior: smooth;
+}
 .containerr {
   max-width: 1400px;
   min-width: 300px;
@@ -445,6 +448,111 @@ header .head-top .menu-wrap .right .main-nav nav ul li {
   align-items: center;
   justify-content: center;
 }
+
+/************************ box slider ************************/
+#bx-slider{
+  height: 400px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cards .outer{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.cards .card{
+  background:var(--white-color);
+  height: 200px;
+  width:310px;
+  display:flex;
+  align-items: center;
+  padding:20px;
+  opacity: 0;
+  pointer-events: none;
+  position:absolute;
+  justify-content: space-between;
+  /* box-shadow: -10px -7px 70px #0000001A; */
+/* border-radius: 5px;
+border: #FFFFFF; */
+border: 0px;
+  /* border-radius: 100px 20px 20px 100px; */
+  animation:animate 15s linear infinite;
+  animation-delay: calc(3s * var(--delay));
+
+
+} 
+.outer:hover .card{
+  animation-play-state: paused;
+}
+.cards .card:last-child{
+  animation-delay: calc(-3s * var(--delay));
+}
+@keyframes animate{
+  0%{
+    opacity:0;
+    transform: translateY(100%) scale(0.5);
+  }
+  5%,
+  20%{
+    opacity:0.4;
+    transform: translateY(100%) scale(0.7);
+  }
+  25%,
+
+  40%{
+    opacity:1;
+    pointer-events: auto;
+    transform: translateY(0%) scale(1);
+  }
+  45%,
+  60%{
+    opacity:0.4;
+    transform: translateY(-100%) scale(0.7);
+  }
+  65%,
+  100%{
+    opacity:0;
+    transform: translateY(-100%) scale(0.5);
+  }
+}
+#sld-serv2{
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+.cards{
+  margin-top: 300px;
+  margin-bottom: 450px;
+}
+#bx-slider{
+  margin-top: 280px;
+}
+
+
+
+
+
+
+
+
+
+
+/* new slider */
+
+
+
+
+
+
+
+
+
+
 
 /************* about us page css ****************/
 
@@ -966,6 +1074,14 @@ header .head-top .menu-wrap .right .main-nav nav ul li {
   text-transform: uppercase;
   opacity: 1;
 }
+
+
+
+
+
+
+
+
 
 /********************blog page *********************/
 #ban-2 {
@@ -5545,6 +5661,9 @@ height: 45px;
   #brndbg {
     display: none;
   }
+  #bx-slider{
+    display: none;
+  }
 }
 
 @media(min-width:590px)and (max-width:750px) {
@@ -5571,6 +5690,11 @@ height: 45px;
   #brndweb {
     display: none;
   }
+  #offers-section{
+    display: none;
+  }
+  
+
 
   .svz1 {
     display: flex;
@@ -6622,6 +6746,8 @@ height: 45px;
 #nmbr1{
   width: 100%;
 }
+
+
 
 /*************** blog page ********************/
 #ban-2 {

@@ -6,15 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SquirrSoft</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="js/script.js">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> -->
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <script type="text/javascript" src="https://code.jquery.com/jquery-latest.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
 
 </head>
 
@@ -232,8 +236,8 @@
     <!-- section 2 offers -->
     <!-- same class used @ about us page our services -->
 
-    <section>
-        <div class="containerr">
+    <section >
+        <div class="containerr" id="offers-section">
             <div class="bxhd1">
                 <div class="bxhd01">
                     <h1><b>WHAT WE OFFERS</b></h1>
@@ -384,67 +388,209 @@
 
     </section>
 
-    <!--___________ slider boxes__________________ -->
 
-    <!-- <section>
+    <!-- *********************box sliding sec ********************-->
+
+    <section >
+        <div class="containerr" id="bx-slider">
+            <div class="bxhd1">
+                <div class="bxhd01">
+                    <h1><b>WHAT WE OFFERS</b></h1>
+
+
+                </div>
+                <div class="cards">
+                    <div class="outer">
+                        <div class="card" style="--delay:-1;">
     
-    <div class="containerr" id="sld-box1">
-        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="..." class="d-block w-100" alt="...">
-                <div class="serv1">
-                    <div class="serv2">
-                        <div class="serviconz">
-                            <div class="servmg"><img src="images/it-alt@2x.png" class="d-block w-100" alt=""></div>
-                            <div class="shead">SEO1</div>
+    
+                            <div class="serv1" id="sld-serv2">
+                                <div class="serv2">
+                                    <div class="serviconz">
+                                        <div class="servmg"><img src="images/it-alt@2x.png" alt=""></div>
+                                        <div class="shead">SEO</div>
+                                    </div>
+                                    <div class="sevt">
+                                        <p>Optimizing Website Content To Improve<br> Search Engine Rankings And Visibility.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+    
+    
+    
                         </div>
-                        <div class="sevt">
-                            <p>Optimizing Website Content To Improve<br> Search Engine Rankings And Visibility.
-                            </p>
+                        <div class="card" style="--delay:0;">
+    
+    
+    
+    
+                            <div class="serv1">
+                                <div class="serv2">
+                                    <div class="serviconz">
+                                        <div class="servmg" id="o1"><img src="images/it-alt@2x.png" alt=""></div>
+                                        <div class="shead">SMM</div>
+                                    </div>
+                                    <div class="sevt">
+                                        <p>Leveraging Social Platforms For Brand<br> Promotion, Engagement, And Lead<br>
+                                            Generation.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+    
+    
                         </div>
+                        <div class="card" style="--delay:1;">
+    
+    
+                            <div class="serv1">
+                                <div class="serv2">
+                                    <div class="serviconz">
+                                        <div class="servmg" id="o2"><img src="images/it-alt@2x.png" alt=""></div>
+                                        <div class="shead">Content<br> Marketing</div>
+                                    </div>
+                                    <div class="sevt">
+                                        <p>Creating And Distributing Valuable<br> Content To Attract And Retain A Target<br>
+                                            Audience.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+    
+    
+    
+    
+                        </div>
+                        <div class="card" style="--delay:2;">
+    
+    
+                            <div class="serv1">
+                                <div class="serv2">
+                                    <div class="serviconz">
+                                        <div class="servmg" id="o3"><img src="images/it-alt@2x.png" alt=""></div>
+                                        <div class="shead">PPC</div>
+                                    </div>
+                                    <div class="sevt">
+                                        <p>Running Targeted Ads To Drive Traffic<br> And Conversions.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+    
+    
+    
+                        </div>
+                        <div class="card" style="--delay:2;">
+                            <div class="serv1">
+                                <div class="serv2">
+                                    <div class="serviconz">
+                                        <div class="servmg" id="o4"><img src="images/it-alt@2x.png" alt=""></div>
+                                        <div class="shead">Graphic Design</div>
+                                    </div>
+                                    <div class="sevt">
+                                        <p>Crafting Visual Elements For Branding,<br> Marketing Materials, And Digital<br>
+                                            Platforms.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+    
+    
+                        </div>
+                        <div class="card" style="--delay:2;">
+    
+                            <div class="serv1">
+                                <div class="serv2">
+                                    <div class="serviconz">
+                                        <div class="servmg" id="o5"><img src="images/it-alt@2x.png" alt=""></div>
+                                        <div class="shead">UI</div>
+                                    </div>
+                                    <div class="sevt">
+                                        <p>Designing The Visual Layout And<br> Elements Of Digital Interfaces For<br>
+                                            Websites Or Applications.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+    
+    
+                        </div>
+                        <div class="card" style="--delay:2;">
+    
+                            <div class="serv1">
+                                <div class="serv2">
+                                    <div class="serviconz">
+                                        <div class="servmg" id="o6"><img src="images/it-alt@2x.png" alt=""></div>
+                                        <div class="shead">UX</div>
+                                    </div>
+                                    <div class="sevt">
+                                        <p>Ensuring A Seamless And Enjoyable<br> User Journey Through Thoughtful<br> Design
+                                            And Usability.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+    
+    
+                        </div>
+                        <div class="card" style="--delay:2;">
+    
+                            <div class="serv1">
+                                <div class="serv2">
+                                    <div class="serviconz">
+                                        <div class="servmg" id="o7"><img src="images/it-alt@2x.png" alt=""></div>
+                                        <div class="shead">Wireframing &<br> Prototyping</div>
+                                    </div>
+                                    <div class="sevt">
+                                        <p>Creating Blueprints And Interactive<br> Models To Visualize And Refine Design<br>
+                                            Concepts.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+    
+    
+                        </div>
+                        <div class="card" style="--delay:2;">
+    
+                            <div class="serv1">
+                                <div class="serv2">
+                                    <div class="serviconz">
+                                        <div class="servmg" id="o8"><img src="images/it-alt@2x.png" alt=""></div>
+                                        <div class="shead">Brand Identity<br> Design</div>
+                                    </div>
+                                    <div class="sevt">
+                                        <p>Developing Consistent Brand Visuals,<br> Including Logos, Color Schemes, And<br>
+                                            Typography.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+    
+    
+                        </div>
+    
+    
+    
+    
+    
+    
                     </div>
                 </div>
-              </div>
-             
-              
                 
-                <div class="carousel-item" id="mve">
-                    <img src="..." class="d-block w-100" alt="...">
-                    
-                        <div class="d-block w-280px h-300px">
-                            <div class="serviconz">
-                                <div class="servmg"><img src="images/it-alt@2x.png"  alt=""></div>
-                                <div class="shead">SEO2</div>
-                            </div>
-                            <div class="sevt">
-                                <p>Optimizing Website Content To Improve<br> Search Engine Rankings And Visibility.
-                                </p>
-                            </div>
-                        </div>
-                
-                  </div>
-             
-              <div class="carousel-item" id="mve">
-                <img src="..." class="d-block w-100" alt="...">
-                
-                    <div class="d-block w-280px h-300px">
-                        <div class="serviconz">
-                            <div class="servmg"><img src="images/it-alt@2x.png"  alt=""></div>
-                            <div class="shead">SEO3</div>
-                        </div>
-                        <div class="sevt">
-                            <p>Optimizing Website Content To Improve<br> Search Engine Rankings And Visibility.
-                            </p>
-                        </div>
-                    </div>
-            
-              </div>
             </div>
-          </div>
 
-    </div>
-</section> -->
+        </div>
+
+    </section>
+
+
+  
+
+    <!--___________ slider boxes__________________ -->
+
+
 
     <!-- section 3 -->
 
@@ -485,11 +631,14 @@
 
     <!-- section 4 -->
     <section class="sec4">
+        <div class="containerr">
+      
 
     </section>
 
     <!-- section 5 case study -->
     <section class="sec5">
+
 
     </section>
 
@@ -611,9 +760,23 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
         integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
         crossorigin="anonymous"></script>
+
+    <script>
+        $(".slider").owlCarousel({
+            loop: true,
+            autoplay: true,
+            autoplayTimeout: 2000, //2000ms = 2s;
+            autoplayHoverPause: true,
+        });
+    </script>
+
+
+
+
     <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
  -->
 
 </body>
