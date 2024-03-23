@@ -7149,7 +7149,7 @@ margin-bottom: 20px;
   gap: 20px;
 }
 #mb-flx1{
-margin-bottom: 0px;
+margin-bottom:0px;
 
 }
 #mb-flx2{
@@ -7709,10 +7709,11 @@ margin-bottom: 0px;
       margin-top: 100px;
     }
 .tab{
-  gap: 10px;
+  gap: 4px;
 }
 .tab button {
-  font: normal normal 600 12px/42px Poppins;
+  padding: 10px 13px;
+  font: normal normal 600 12px/22px Poppins;
 }
 .port-all{
   gap: 10px;
@@ -7720,11 +7721,25 @@ margin-bottom: 0px;
 }
 
 .first-row-imagee img{
-  width: 90px;
-height: 90px;
+  width: 120px;
+height: 120px;
 border-radius: 5px;
 opacity: 1;
 margin-bottom: 10px;
+}
+#mb-flx3{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+#mb-flx1{
+margin-bottom: 0px;
+
+}
+#mb-flx2{
+  margin-bottom: 0px;
+
+
 }
 
 
