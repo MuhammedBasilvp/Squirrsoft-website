@@ -1110,8 +1110,17 @@ border: #FFFFFF; */
   justify-content: center;
 }
 
+.blog-left img:hover{
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+  transition: 1s ease;
+  }
+
+
 .blog-left img {
   width: 895px;
+  transition: 1s ease;
 }
 
 .blog-left-1 {
